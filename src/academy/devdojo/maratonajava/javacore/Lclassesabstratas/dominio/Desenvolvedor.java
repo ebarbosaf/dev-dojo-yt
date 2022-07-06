@@ -1,0 +1,13 @@
+package academy.devdojo.maratonajava.javacore.Lclassesabstratas.dominio;
+
+public class Desenvolvedor extends Funcionario{
+
+    public Desenvolvedor(String nome, double salario){
+        super(nome, salario);
+    }
+
+
+    public void calculaBonus(){
+        this.salario += this.salario * 0.01;
+    }
+}
